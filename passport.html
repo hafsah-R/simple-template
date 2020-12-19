@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="إصدر جوازك الإلكتروني">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<title>إدارة الجوازات والهجرة</title>
+<body>
+<!--head--->
+<div class="head1">
+<img src="fotter.png">
+</div>
+<!--head-->
+<!--body-->
+<div class="body">
+<button class="accordion">الخدمات</button>
+<div class="panel">
+  <a href="insert data.html">إصدار جواز إلكتروني</a>
+</div>
+
+<button class="accordion">مراكز الخدمات</button>
+<div class="panel">
+  <p>مجمع الخرطوم<br>مجمع أم درمان<br>مجمع بحري<br>العلاقات البينية</p>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+
+<!--footer-->
+
+<footer class="footer">
+<address> جميع الحقوق محفوظة للإدارة العامة للجوازات والهجرة 2019 </address>
+<address>by hafsah rizg</address>
+</footer>
+<!--footer-->
+</html>
+</body>
