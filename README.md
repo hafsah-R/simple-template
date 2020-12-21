@@ -1,4 +1,4 @@
 # simple-template
 this project my gradution project template and first project in frontend for issuing passport Electronically.
-![Alt text](/relative/path/to/first.jpg?raw=true "Optional Title")
+
 
